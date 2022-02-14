@@ -1,4 +1,4 @@
-# @rextjs/babel-plugin-auto-css-modules
+# @pieced/babel-plugin-auto-css-modules
 
 Automatically identify CSS Modules
 
@@ -13,7 +13,7 @@ Without options:
 ```json
 {
   "plugins": [
-    "@rextjs/babel-plugin-auto-css-modules"
+    "@pieced/babel-plugin-auto-css-modules"
   ]
 }
 ```
@@ -24,7 +24,7 @@ With options:
 {
   "plugins": [
     [
-      "@rextjs/babel-plugin-auto-css-modules",
+      "@pieced/babel-plugin-auto-css-modules",
       {
         "generate": "function"
       }
