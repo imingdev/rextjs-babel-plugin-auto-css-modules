@@ -3,8 +3,14 @@
   <a href="https://www.npmjs.com/package/@pieced/babel-plugin-auto-css-modules" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/@pieced/babel-plugin-auto-css-modules.svg">
   </a>
+  <a href="https://www.npmjs.com/package/@pieced/babel-plugin-auto-css-modules" target="_blank">
+    <img alt="Download" src="https://img.shields.io/npm/dm/@pieced/babel-plugin-auto-css-modules.svg?color=blue" target="_blank" />
+  </a>
+  <a href="https://www.npmjs.com/package/@pieced/babel-plugin-auto-css-modules" target="_blank">
+    <img alt="Babel" src="https://img.shields.io/badge/babel->=7.0.0-blue">
+  </a>
   <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    <img alt="License: MIT" src="https://img.shields.io/github/license/pieced-team/babel-plugin-auto-css-modules" />
   </a>
 </p>
 
@@ -57,8 +63,3 @@ With options:
 }
 // return import styles from 'a.scss?modules'
 ```
-
-## 📝 License
-
-Copyright (c) 2021 [mingdev](https://github.com/imingdev).<br />
-This project is [MIT](https://github.com/pieced-team/babel-plugin-auto-css-modules/blob/master/LICENSE) licensed.
