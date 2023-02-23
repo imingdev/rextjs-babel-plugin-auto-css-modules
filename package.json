@@ -1,6 +1,6 @@
 {
   "name": "@pieced/babel-plugin-auto-css-modules",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": "mingdev <mingdev@163.com>",
   "license": "MIT",
   "main": "index.js",
