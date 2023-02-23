@@ -4,21 +4,20 @@
     <img alt="Version" src="https://img.shields.io/npm/v/@pieced/babel-plugin-auto-css-modules.svg">
   </a>
   <a href="https://www.npmjs.com/package/@pieced/babel-plugin-auto-css-modules" target="_blank">
-    <img alt="Download" src="https://img.shields.io/npm/dm/@pieced/babel-plugin-auto-css-modules.svg?color=blue" target="_blank" />
+    <img alt="Download" src="https://img.shields.io/npm/dm/@pieced/babel-plugin-auto-css-modules.svg?color=blue" />
   </a>
   <a href="https://www.npmjs.com/package/@pieced/babel-plugin-auto-css-modules" target="_blank">
-    <img alt="Babel" src="https://img.shields.io/badge/babel->=7.0.0-blue">
+  <img alt="Babel" src="https://img.shields.io/badge/babel->=7.0.0-blue">
   </a>
-  <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/pieced-team/babel-plugin-auto-css-modules" />
+  <a href="https://www.npmjs.com/package/@pieced/babel-plugin-auto-css-modules" target="_blank">
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/pieced-team/babel-plugin-auto-css-modules">
+  </a>
+  <a href="https://www.npmjs.com/package/@pieced/babel-plugin-auto-css-modules" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/npm/l/@pieced/babel-plugin-auto-css-modules" />
   </a>
 </p>
 
 > Automatically identify CSS Modules
-
-```js
-import styles from 'a.scss'; //===>import styles from 'a.scss?modules'
-```
 
 ## Install
 
@@ -28,9 +27,13 @@ npm i @pieced/babel-plugin-auto-css-modules
 
 ## Usage
 
-Without options:
-
 ```js
+import styles from 'a.scss'; //===>import styles from 'a.scss?modules'
+```
+
+`Without options:`
+
+```json
 {
   "plugins": [
     "@pieced/babel-plugin-auto-css-modules"
@@ -38,9 +41,9 @@ Without options:
 }
 ```
 
-With options:
+`With options:`
 
-```js
+```json
 {
   "plugins": [
     [
@@ -52,6 +55,7 @@ With options:
   ]
 }
 ```
+
 ## Options
 
 `generate type function`
