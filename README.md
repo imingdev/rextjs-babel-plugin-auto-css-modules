@@ -1,16 +1,30 @@
-# @pieced/babel-plugin-auto-css-modules
+<h1 align="center">@pieced/babel-plugin-auto-css-modules 👋</h1>
+<p align="center">
+  <a href="https://www.npmjs.com/package/@pieced/babel-plugin-auto-css-modules" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@pieced/babel-plugin-auto-css-modules.svg">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-Automatically identify CSS Modules
+> Automatically identify CSS Modules
 
 ```js
 import styles from 'a.scss'; //===>import styles from 'a.scss?modules'
+```
+
+## Install
+
+```sh
+npm i @pieced/babel-plugin-auto-css-modules
 ```
 
 ## Usage
 
 Without options:
 
-```json
+```js
 {
   "plugins": [
     "@pieced/babel-plugin-auto-css-modules"
@@ -20,7 +34,7 @@ Without options:
 
 With options:
 
-```json
+```js
 {
   "plugins": [
     [
@@ -32,10 +46,9 @@ With options:
   ]
 }
 ```
-
 ## Options
 
-### `generate type function`
+`generate type function`
 
 ```js
 (value, suffix) => {
@@ -44,3 +57,8 @@ With options:
 }
 // return import styles from 'a.scss?modules'
 ```
+
+## 📝 License
+
+Copyright (c) 2021 [mingdev](https://github.com/imingdev).<br />
+This project is [MIT](https://github.com/pieced-team/babel-plugin-auto-css-modules/blob/master/LICENSE) licensed.
