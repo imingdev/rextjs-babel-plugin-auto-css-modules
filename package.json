@@ -1,10 +1,10 @@
 {
   "name": "@pieced/babel-plugin-auto-css-modules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "mingdev <mingdev@163.com>",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "https://github.com/imingdev/pieced-babel-plugin-auto-css-modules",
+  "homepage": "https://github.com/pieced-team/babel-plugin-auto-css-modules",
   "files": [
     "index.js"
   ],
